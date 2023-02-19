@@ -1,0 +1,5 @@
+sqlplus > system/oracle
+
+SQL> create user [아이디] identified by [비밀번호]; <- 회원가입
+
+grant connect, resource, dba to [아이디]; <- 권한부여
